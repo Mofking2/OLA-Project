@@ -39,72 +39,35 @@
 
 <body class="index-page">
 
-<!-- Header -->
-<header id="header" class="header d-flex align-items-center fixed-top bg-dark text-white py-2">
-  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-    <!-- Logo -->
-    <a href="index.html" class="d-flex align-items-center text-white text-decoration-none">
-      <h1 class="h4 m-0">Ol AFRIKA</h1>
-    </a>
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Ol AFRIKA</h1>
+      </a>
 
-    <!-- Desktop Nav -->
-    <nav class="d-none d-xl-block">
-      <ul class="nav">
-        <li class="nav-item"><a href="#hero" class="nav-link text-white">Home</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link text-white">Opportunities</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Our Subsidiaries</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">OL Afrika Media</a></li>
-            <li><a class="dropdown-item" href="#">OL Afrika Akademy</a></li>
-            <li><a class="dropdown-item" href="#">OL Afrika Kommunication</a></li>
-            <li><a class="dropdown-item" href="#">OL Afrika Solutions</a></li>
-            <li><a class="dropdown-item" href="#">OL Afrika Green</a></li>
-            <li><a class="dropdown-item" href="#">OL Afrika Foundation</a></li>
-          </ul>
-        </li>
-        <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- Mobile Toggle Button -->
-    <button class="btn d-xl-none text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav">
-      <i class="bi bi-list fs-2"></i>
-    </button>
-
-  </div>
-</header>
-
-<!-- Offcanvas Sidebar -->
-<div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="mobileNav">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title">OL AFRIKA</h5>
-    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body">
-    <ul class="nav flex-column">
-      <li class="nav-item"><a href="#hero" class="nav-link text-white">Home</a></li>
-      <li class="nav-item"><a href="#about" class="nav-link text-white">Opportunities</a></li>
-      <li class="nav-item">
-        <a class="nav-link text-white" data-bs-toggle="collapse" href="#subsCollapse" role="button" aria-expanded="false">
-          Our Subsidiaries <i class="bi bi-chevron-down ms-1"></i>
-        </a>
-        <div class="collapse ps-3" id="subsCollapse">
-          <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Media</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Akademy</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Kommunication</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Solutions</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Green</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="#">OL Afrika Foundation</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="nav-item"><a href="#contact" class="nav-link text-white">Contact</a></li>
-    </ul>
-  </div>
-</div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Opportunities</a></li>
+          <li class="dropdown"><a href="#"><span>Our Subsidiaries</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">OL Afrika Media</a></li>
+              <li><a href="#">OL Afrika Akademy</a></li>
+              <li><a href="#">OL Afrika Kommunication</a></li>
+              <li><a href="#">OL Afrika Solutions</a></li>
+              <li><a href="#">OL Afrika Green</a></li>
+              <li><a href="#">OL Afrika Foundation</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>.....mobile-nav-toggle d-xl-none, i want to make the mobile navbar off canva, sidebar 
   <main class="main">
 
     <!-- Hero Section -->
