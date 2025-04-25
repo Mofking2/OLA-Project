@@ -843,6 +843,13 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
+@media screen and (max-width: 768px) {
+  .page-title .breadcrumbs ol {
+ 
+    font-size: 12px;
+    font-weight: 200;
+  }
+}
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
@@ -998,8 +1005,10 @@ section,
 }
 
 @media (max-width: 768px) {
+
   .hero h2 {
-    font-size: 32px;
+    font-size: 28px;
+    text-align: center;
   }
 
   .hero p {
